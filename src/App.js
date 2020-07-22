@@ -6,18 +6,22 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 function App() {
 	return (
 		<div className='App'>
+			<ClassClick></ClassClick>
+			{/* <FunctionClick></FunctionClick> */}
 			{/* <Counter></Counter>
 			<Greet name='Bruce' heroName='Batman'>
 				<p>This is children props</p>
 			</Greet>
 			<Greet name='Clark' heroName='Superman'></Greet>
 			<button>Click Me!</button> */}
-			<Greet name='Diana' heroName='Wonderwoman'></Greet>
-			<Welcome name='Bruce' heroName='Batman'></Welcome>
+			{/* <Greet name='Diana' heroName='Wonderwoman'></Greet>
+			<Welcome name='Bruce' heroName='Batman'></Welcome> */}
 			{/* <Welcome name='Clark' heroName='Superman'></Welcome>
 			<Welcome name='Diana' heroName='Wonderwoman'></Welcome>
 			<Hello></Hello> */}
