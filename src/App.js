@@ -8,7 +8,9 @@ class App extends Component {
 		return (
 			<div className='App'>
 				<Navbar></Navbar>
-				<Users></Users>
+				<div className='container'>
+					<Users></Users>
+				</div>
 			</div>
 		);
 	}
