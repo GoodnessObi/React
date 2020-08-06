@@ -5,7 +5,6 @@ const Search = ({ searchUsers, showClear, clearUsers, setAlert }) => {
 	const [text, setText] = useState('');
 
 	const onChange = (e) => setText(e.target.value);
-	// this.setState({ text: e.target.value });
 
 	const onSubmit = (e) => {
 		e.preventDefault();
