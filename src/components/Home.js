@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home() {
+const Home = () => {
 	return (
 		<div className='container'>
 			<h4 className='center'>Home</h4>
@@ -11,6 +11,6 @@ function Home() {
 			</p>
 		</div>
 	);
-}
+};
 
 export default Home;
